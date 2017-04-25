@@ -1,0 +1,1108 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* RESET CSS BEGIN */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*RESET CSS END*/
+
+
+/* HELPER CLASSES BEGIN */
+.alignLeft {
+    float: left;
+}
+
+.alignRight {
+    float: right;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+p,
+ul li,
+ol li {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+/*HELPER CLASSES END*/
+
+
+/* GENERAL RULES*/
+* {
+   box-sizing: border-box; 
+}
+
+/* Fonts */
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+/* Classes */
+.container
+{
+	max-width:1164px;
+	width:100%;
+	height: auto;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+
+}
+#Home
+{
+	background-image: url("../img/Home/header-bg.png");
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+	color:#fff;
+
+}
+#Home .alignLeft
+{
+	margin-top:57px;
+}
+#Home li
+{
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 54px 58px 0px 0px;
+	font-weight: 100;
+	font-size: 18px;
+}
+#Home li:hover
+{
+	font-weight: bold;
+}
+#Home h2
+{
+	margin: 260px 57px 0px 73px;
+	font-size:65px;
+}
+#Home h4
+{
+	margin: 13px 56px 0px 340px;
+	font-size:33px;
+	font-weight: 200;
+}
+#Home .circ1
+{
+	position: absolute;
+	top: 350px;
+	left: 1240px;
+}
+#Home .circ11
+{
+	z-index: 10;
+}
+#Home .circ12
+{
+	z-index: -10;
+}
+#Home .circ2
+ {
+	 position: absolute;
+	 top: 380px;
+	 left: 1240px;
+ }
+#Home .circ21
+{
+	z-index: -10;
+}
+#Home .circ22
+{
+	z-index: 10;
+}
+#Home .circ3
+{
+	position: absolute;
+	top: 410px;
+	left: 1240px;
+}
+#Home .circ31
+{
+	z-index: 10;
+}
+#Home .circ32
+{
+	z-index: -10;
+}
+#Home .button1
+{
+	margin: 80px 30% 241px 35%;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	width: 300px;
+}
+
+#Home .button1 a
+{
+	font-size: 28px;
+	font-weight: 100;
+	line-height: 67px;
+	text-decoration: none;
+	padding: 0 68px;
+	color: #fff;
+}
+#Home .button1:hover
+{
+	background-color: #7b738c;
+}
+
+/* Service */
+
+#Service .what_we_do
+{
+	margin: 190px 0 0 0;
+	padding: 0;
+	color:#e1e1e1;
+	font-size:128px;
+	line-height: 170px;
+	width: 30%;
+	float: left;
+	text-transform: uppercase;
+}
+#Service
+{
+	color: #333333;
+}
+#Service .list
+{
+	margin: 133px 0 0 0;
+	width: 40%;
+	float:right;
+}
+#Service h5
+{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 0 35px 0;
+}
+#Service p
+{
+	float:right;
+	font-size:14px;
+}
+#Service li
+{
+	padding: 0 0 100px 100px;
+	margin: 0 0 25px 0;
+}
+#Service .web
+{
+	background-image: url("../img/Service/envelope-icon.png");
+	background-repeat: no-repeat;
+}
+#Service .ui
+{
+	background-image: url("../img/Service/sec-icon-board.png");
+	background-repeat: no-repeat;
+}
+
+#Service a
+{
+	text-decoration: none;
+}
+#Service a:hover
+{
+	color:#654b9f;
+}
+#Service .photo
+{
+	background-image: url("../img/Service/map-icon.png");
+	background-repeat: no-repeat;
+}
+#Service .app
+{
+	background-image: url("../img/Service/2-mobil-icon.png");
+	background-repeat: no-repeat;
+}
+
+/* Exceptional Customer Service */
+#Ex_Service
+{
+	background-image: url("../img/Exceptional Customer service/grey_cover_computer.png");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#Ex_Service h3
+{
+	color: #654b9f;
+	font-size: 50px;
+	padding: 286px 0 50px 0;
+	font-weight: 100;
+}
+#Ex_Service p
+{
+	font-size: 18px;
+	font-weight: 100;
+	padding: 0 0 40px 0;
+}
+#Ex_Service button
+{
+	margin: 0 0 310px 0;
+	width:255px;
+	height: 60px;
+	background-color: #503392;
+	color: #fff;
+	font-size: 18px;
+}
+#Ex_Service button:hover
+{
+
+	background-color: #fff;
+	color: #503392;
+}
+#Ex_Service .rarr
+{
+	padding-left:11px;
+}
+#Portfolio h3
+{
+	padding: 145px 0 30px 440px;
+	font-size: 50px;
+	color: #333333;
+}
+#Portfolio p
+{
+	font-size: 18px;
+	margin: 0 0 60px 280px;
+}
+#Portfolio .buttons
+{
+	padding: 0 0 0 308px;
+}
+#Portfolio .btn
+{
+	color: #333333;
+	border-color: #333333;
+	border-width: thin;
+	margin: 0 10px 77px 0;
+	background-color:#fff;
+	height: 37px;
+}
+#Portfolio .btn:hover
+{
+	background-color: #4e3391;
+	color:#fff;
+}
+#Portfolio .btn-1
+{
+	width:67px;
+}
+#Portfolio .btn-2
+{
+	width:103px;
+}
+#Portfolio .btn-3
+{
+	width:98px;
+}
+#Portfolio .btn-4
+{
+	width:126px;
+}
+#Portfolio .btn-5
+{
+	width:120px;
+}
+#Portfolio .sqr
+{
+	width: 277px;
+	height: 314px;
+	background-repeat:no-repeat;
+	float:left;
+	margin: 0 8px 8px 0;
+}
+#Portfolio .sqr_row
+{
+	max-width: 1160px;
+	height:auto;
+	width:auto;
+}
+#Portfolio .sqr11
+{
+	background-image: url("../img/Portfolio/1.png");
+}
+#Portfolio .sqr12
+{
+	background-image: url("../img/Portfolio/2.png");
+}
+#Portfolio .sqr13
+{
+	background-image: url("../img/Portfolio/3.png");
+}
+#Portfolio .sqr14
+{
+	background-image: url("../img/Portfolio/4.png");
+}
+#Portfolio .sqr21
+{
+	background-image: url("../img/Portfolio/5.png");
+}
+#Portfolio .sqr22
+{
+	background-image: url("../img/Portfolio/6.png");
+}
+#Portfolio .sqr23
+{
+	background-image: url("../img/Portfolio/7.png");
+}
+#Portfolio .sqr24
+{
+	background-image: url("../img/Portfolio/8.png");
+}
+#Portfolio .rows
+{
+	width: auto;
+	height: 635px;
+	margin: 0 0 120px 0;
+}
+#Statistics
+{
+
+	background-image: url("../img/Statistics/purple_bg_bottom.png");
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+	color:#fff;
+}
+#Statistics .symbols
+{
+	margin: 120px 0 0 100px;
+	width: 1060px;
+}
+#Statistics .symb
+{
+	padding: 0 0 125px 0;
+	float: left;
+	width:25%;
+}
+#Contact
+{
+	background-color: #232323;
+
+}
+#Contact h3
+{
+	padding: 87px 0 25px 500px;
+	color: #555555;
+	font-size: 50px;
+	font-weight: bold;
+}
+#Contact P
+{
+	color: #fff;
+	font-size: 18px;
+	margin: 0 0 90px 290px;
+}
+#Contact h5
+{
+	margin: 0 0 47px 0;
+	color: #fff;
+	font-size:33px;
+}
+#Contact .details
+{
+	width:340px;
+	padding: 70px 0 0 0;
+	margin: 0 180px 0 0;
+}
+#Contact .form
+{
+	width: 509px;
+	margin: 0 0 93px 0;
+}
+#Contact .input
+{
+	width: 100%;
+	background-color: transparent;
+	line-height: 55px;
+	padding: 0 0 0 25px;
+	margin: 0 0 10px 0;
+	color: #555555;
+	font-size: 20px;
+}
+
+#Contact .textarea
+{
+	height: 141px;
+	border: #fff 2px solid;
+}
+#Contact button
+{
+	margin: 0 0 0 0px;
+	width: 152px;
+	height: 56px;
+	background: #503392;
+	color:#fff;
+	font-size: 20px;
+}
+#Contact .message h5
+{
+	color:#fff;
+	font-size:330px;
+}
+#Contact li
+{
+	color: #fff;
+	font-size: 16px;
+	margin: 40px 0 0 0;
+}
+#Contact .house
+{
+	background-image: url("../img/Contact/small_house_icon.png");
+	background-repeat: no-repeat;
+	padding-left: 60px;
+}
+#Contact .phone
+{
+	background-image: url("../img/Contact/small_phone_icon.png");
+	background-repeat: no-repeat;
+	padding:0 0 0 60px;
+
+}
+#Contact .mail
+{
+	background-image: url("../img/Contact/small_envelope_icon.png");
+	background-repeat: no-repeat;
+	padding:   0 0 0 60px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #555555;
+	font-size:20px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #555555;
+	font-size:20px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: #555555;
+	font-size:20px;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #555555;
+	font-size:20px;
+}
+
+.block
+{
+	display:block;
+}
+#Footer
+{
+	background: #1f1f1f;
+}
+#Footer p
+{
+	color: #555555;
+	padding: 40px 0 40px 0;
+
+}
+#Footer .img
+{
+	position: absolute;
+	top: 40px;
+}
+#Footer .fb
+{
+	left: 860px;
+}
+#Footer .tw
+{
+	left: 900px;
+}
+#Footer .goog
+{
+	left: 953px;
+}
+#Footer .inst
+{
+	left: 1003px;
+}
+#Footer .bel
+{
+	left: 1053px;
+}
+#Footer .dr
+{
+	left: 1102px;
+}
+@media only screen and (max-width: 1200px)
+{
+	#Home .alignLeft {
+		margin-left: 20px;
+	}
+
+	#Home .circ {
+		left: 95%;
+	}
+
+	#Home li {
+		padding: 54px 38px 0px 0px;
+		font-size: 13px;
+	}
+
+	#Home .button1 {
+		margin-top: 100px;
+		margin-left: 34%;
+		padding: 0px;
+		width: 320px;
+	}
+
+	#Home .button1 a {
+		font-size: 30px;
+	}
+
+	#Home h2 {
+		margin-left: 18%;
+		font-size: 45px;
+	}
+
+	#Home h4 {
+		font-size: 25px;
+		margin-left: 32%;
+	}
+
+	#Service .what_we_do {
+		margin: 190px 0 0 25px;
+	}
+
+	#Ex_Service .container
+	{
+		margin: 0 3%;
+	}
+	#Portfolio h3
+	{
+		padding: 145px 30% 30px;
+	}
+	#Portfolio p
+	{
+		margin: 0 20% 60px 22%;
+	}
+	#Portfolio .buttons
+	{
+		padding: 0 10% 0 22%;
+	}
+	#Portfolio .sqr_row
+	{
+		margin: 0 0 0 20px;
+	}
+	#Statistics .symbols
+	{
+		margin: 120px 10% 0;
+		width: 80%;
+	}
+	#Contact .info
+	{
+		margin: 0 0 0 20px;
+	}
+	#Contact h3
+	{
+		padding: 87px 37% 25px;
+	}
+	#Contact p
+	{
+		margin: 0 15% 90px;
+	}
+	#Footer p
+	{
+		padding: 36px 0 40px 31px;
+	}
+	#Footer .fb
+	{
+		left: 360px;
+	}
+	#Footer .tw
+	{
+		left: 400px;
+	}
+	#Footer .goog
+	{
+		left: 453px;
+	}
+	#Footer .inst
+	{
+		left: 503px;
+	}
+	#Footer .bel
+	{
+		left: 553px;
+	}
+	#Footer .dr
+	{
+		left: 603px;
+	}
+}
+@media only screen and (max-width: 1050px)
+{
+	#Home .button1
+	{
+		margin-top:100px;
+		margin-left: 32%;
+		width: 300px;
+	}
+	#Home .button1 a
+	{
+		font-size: 30px;
+		line-height: 55px;
+	}
+	#Home .circ1
+	{
+		left: 95%;
+	}
+	#Home .circ2
+	{
+		left: 95%;
+	}
+	#Home .circ3
+	{
+		left: 95%;
+	}
+	#Home h2
+	{
+		font-size: 30px;
+		margin-left: 27%;
+	}
+	#Home h4
+	{
+		margin-left: 34%;
+		font-size: 20px;
+	}
+	#Service .what_we_do
+	{
+		margin: 190px 0 0 25px;
+	}
+	#Contact .form
+	{
+		margin-bottom: 0;
+	}
+	#Contact .details
+	{
+		margin: 0 0 0 20px;
+		float: left;
+	}
+}
+@media only screen and (max-width: 1000px)
+{
+	#Home .button1 a
+	{
+		font-size: 14px;
+		padding: 0 0 0 25%;
+		line-height: 35px;
+	}
+	#Home h2
+	{
+		font-size: 30px;
+		margin-left: 22%;
+	}
+	#Home h4
+	{
+		margin-left: 32%;
+		font-size: 20px;
+	}
+	#Home .button1
+	{
+		margin-top:100px;
+		margin-left: 30%;
+		padding: 10px;
+		font-size: 30px;
+		width: 300px;
+	}
+	#Home .button1 a
+	{
+		font-size: 30px;
+
+	}
+	#Service .what_we_do
+	{
+		font-size: 60px;
+		margin: 0 10%;
+		width: 80%;
+	}
+	#Service .list
+	{
+		margin: 0;
+		width: 100%;
+	}
+	#Service li
+	{
+		margin-left: 20%;
+	}
+	#Service p
+	{
+		font-size: 14px;
+		width: 90%;
+		margin-right:20px;
+	}
+	.block
+	{
+		display:inline-block;
+	}
+	#Statistics .symb
+	{
+		padding: 0 0 125px 40px;
+		float: left;
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 775px)
+{
+	#Home .button1
+	{
+		margin-top:100px;
+		margin-left: 30%;
+		width: 300px;
+	}
+	#Home .button1 a
+	{
+		font-size: 30px;
+		line-height: 35px;
+
+	}
+	#Portfolio h3
+	{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 710px)
+{
+	#Home .button1
+	{
+		margin-top:100px;
+		margin-left: 30%;
+		font-size: 30px;
+
+	}
+	#Home .button1 a
+	{
+		font-size: 30px;
+		line-height: 35px;
+	}
+	#Contact h3
+	{
+			padding: 87px 35% 25px 30%;
+	}
+}
+@media only screen and (max-width: 670px)
+{
+	#Home h2
+	{
+		font-size: 25px;
+		margin-left: 22%;
+	}
+	#Home h4
+	{
+		margin-top:30px;
+		margin-left: 27%;
+		font-size: 22px;
+	}
+	#Home .button1
+	{
+		margin-top:100px;
+		margin-left: 26%;
+		padding: 10px;
+		font-size: 30px;
+		width: 280px;
+		padding-right: 40px;
+	}
+	#Home .button1 a
+	{
+		font-size: 30px;
+
+	}
+	#Ex_Service h3
+	{
+		font-size:40px;
+	}
+	#Ex_Service p
+	{
+		width: 80%;
+	}
+	#Portfolio h3
+	{
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 640px)
+{
+	#Home .circ
+	{
+		display:block;
+	}
+	#Home .burger-nav
+	{
+		background: url("../img/Home/hamburger.png") no-repeat 100% center;
+		height: 31px;
+		width: 40px;
+		display: block;
+		cursor: pointer;
+		float:right;
+		position: absolute;
+		top: 52px;
+		right: 25px;
+	}
+	#Home .container ul
+	{
+		overflow: hidden;
+		height: 0px;
+	}
+	#Home .container ul.open
+	{
+		height:auto;
+		clear: both;
+		margin: 100px 20px 0 0;
+
+
+	}
+	#Home .container ul li
+	{
+		float: none;
+		text-align:center;
+		color: #fff;
+		background: #282828;
+		width:auto;
+		display: block;
+		padding: 10px;
+	}
+	#Home h2
+	{
+		font-size: 27px;
+		margin-left: 13%;
+		margin-top: 200px;
+	}
+	#Home h2.open
+	{
+		margin-top:300px;
+	}
+	#Home h4
+	{
+		margin-left: 21%;
+		margin-top: 30px;
+		font-size: 19px;
+	}
+	#Home .button1
+	{
+		margin-top:100px;
+		margin-left: 19%;
+		padding: 5px;
+		padding-right:25px;
+		font-size: 30px;
+		width: 59%;
+		max-width: 300px;
+	}
+	#Home .button1 a
+	{
+		font-size: 30px;
+	}
+	#Footer p
+	{
+		padding: 36px 0 70px 31px;
+	}
+	#Footer .img
+	{
+		top:90px;
+	}
+	#Footer .fb
+	{
+		left: 41px;
+	}
+	#Footer .tw
+	{
+		left: 81px;
+	}
+	#Footer .goog
+	{
+		left: 121px;
+	}
+	#Footer .inst
+	{
+		left: 161px;
+	}
+	#Footer .bel
+	{
+		left: 201px;
+	}
+	#Footer .dr
+	{
+		left: 241px;
+	}
+}
+@media only screen and (max-width: 540px)
+{
+	#Home h2
+	{
+		font-size: 23px;
+		margin-left: 13%;
+		margin-top: 200px;
+	}
+	#Service .what_we_do
+	{
+		font-size: 45px;
+	}
+	#Ex_Service h3
+	{
+		font-size: 30px;
+		font-weight: bold;
+		padding: 150px 0 50px 0;
+	}
+	#Contact .form
+	{
+		width: 95%;
+	}
+}
+@media only screen and (max-width: 460px)
+{
+	#Home .circ
+	{
+		display:block;
+	}
+	#Home h2
+	{
+		font-size: 20px;
+		margin-left: 10%;
+		margin-top: 200px;
+	}
+	#Home h4
+	{
+		margin-left: 20%;
+		margin-top: 30px;
+		font-size: 16px;
+	}
+	#Home .button1
+	{
+		margin-top:100px;
+		margin-left: 14%;
+		padding: 5px;
+		padding-right:25px;
+		font-size: 30px;
+		width: 62%;
+		max-width: 300px;
+	}
+	#Home .button1 a
+	{
+		font-size: 30px;
+
+	}
+	#Ex_Service .container
+	{
+		margin: 0 5%;
+	}
+	#Portfolio h3
+	{
+		font-size: 25px;
+		font-weight: bold;
+	}
+	#Portfolio .sqr_row
+	{
+		margin: 0 0 0 60px;
+	}
+	#Statistics .symbols
+	{
+		margin: 120px 5% 0 3%;
+		width: 80%;
+	}
+	#Contact h3
+	{
+		padding: 87px 45px 25px
+	}
+	#Contact p
+	{
+		margin: 0 0 90px 45px;
+	}
+	#Contact .info
+	{
+		margin: 0 0 0 45px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
